@@ -15,4 +15,11 @@ git reset  --hard commit-id（需要退回到哪个版本就用哪个）
     一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。
     (git checkout -- file命令中的--很重要，没有--，就变成了“切换到另一个分支”的命令，我们在后面的分支管理中会再次遇到git checkout命令。)
 
-git checkout -b branch-newName
+git branch          --》查看分支
+git branch<name>    --》创建分支
+git checkout<name>  -->切换分支
+git checkout -b <name>  -->切换并创建分支
+git merge <name>        -->合并某分支到当前分支
+git branch -d <name>    -->删除分支
+
+
