@@ -3,6 +3,7 @@ Git is free software distributed under the GPL.
 Git has a mutable index called stage.
 Git tracks changes.
 Git tracks changes of files.
+Creating a new branch is quick AND simple.
 
 学习步骤：
 git init 初始化库
